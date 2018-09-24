@@ -1,0 +1,17 @@
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\DoableTests.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\DoableTests.pdb
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\obj\Debug\DoableTests.csprojAssemblyReference.cache
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\obj\Debug\DoableTests.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\obj\Debug\DoableTests.csproj.CopyComplete
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\obj\Debug\DoableTests.dll
+C:\Users\Ryan\source\repos\WindowsFormsApp1\DoableTests\obj\Debug\DoableTests.pdb

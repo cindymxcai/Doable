@@ -1,0 +1,16 @@
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Doable.csprojAssemblyReference.cache
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Doable.csproj.GenerateResource.cache
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Doable.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DailyUserControl.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.WeeklyUserControl.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MonthlyUserControl.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddTaskForm.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TaskObject.resources
+C:\Users\Ryan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TaskUserControl.resources
