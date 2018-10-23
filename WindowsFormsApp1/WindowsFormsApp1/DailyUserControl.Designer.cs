@@ -33,7 +33,7 @@
             // 
             // DailyViewBackGround
             // 
-            this.DailyViewBackGround.Image = global::WindowsFormsApp1.Properties.Resources.DailyView1;
+            this.DailyViewBackGround.Image = global::WindowsFormsApp1.Properties.Resources.DailyLayout;
             this.DailyViewBackGround.Location = new System.Drawing.Point(0, 0);
             this.DailyViewBackGround.Name = "DailyViewBackGround";
             this.DailyViewBackGround.Size = new System.Drawing.Size(456, 303);

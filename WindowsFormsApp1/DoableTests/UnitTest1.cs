@@ -8,10 +8,6 @@ namespace DoableTests
     {
         [TestMethod]
         public void TestMethod1()
-        {
-            UnitTest1 test = new UnitTest1();
-
-            ViewResult result = test.Index() as ViewResult
-        }
+        {        }
     }
 }

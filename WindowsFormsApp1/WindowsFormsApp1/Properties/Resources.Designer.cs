@@ -113,6 +113,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DailyLayout {
+            get {
+                object obj = ResourceManager.GetObject("DailyLayout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DailyView {
             get {
                 object obj = ResourceManager.GetObject("DailyView", resourceCulture);
@@ -173,6 +183,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MonthlyLayout {
+            get {
+                object obj = ResourceManager.GetObject("MonthlyLayout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MonthlyView {
             get {
                 object obj = ResourceManager.GetObject("MonthlyView", resourceCulture);
@@ -186,6 +206,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap WeeklyButton {
             get {
                 object obj = ResourceManager.GetObject("WeeklyButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WeeklyLayout {
+            get {
+                object obj = ResourceManager.GetObject("WeeklyLayout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

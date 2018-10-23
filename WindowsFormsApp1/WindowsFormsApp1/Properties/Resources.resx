@@ -124,8 +124,14 @@
   <data name="MonthlyButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MonthlyButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MonthlyView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MonthlyView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WhiteBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhiteBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="best dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\best dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DailyView" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DailyView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,20 +145,20 @@
   <data name="LightGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LightGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MonthlyView" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MonthlyView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MonthlyLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MonthlyLayout.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WeeklyLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeeklyLayout.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WeeklyButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeeklyButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="best dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\best dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Addtaskbutton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Addtaskbutton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Addtaskbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Addtaskbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DailyButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DailyButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MonthlyButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MonthlyButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,10 +166,13 @@
   <data name="WeeklyView1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeeklyView1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DailyButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DailyButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WeeklyView" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeeklyView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Addtaskbutton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Addtaskbutton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DailyLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DailyLayout.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

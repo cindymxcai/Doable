@@ -37,7 +37,6 @@
             this.monthlyUserControl1 = new WindowsFormsApp1.MonthlyUserControl();
             this.dailyUserControl1 = new WindowsFormsApp1.DailyUserControl();
             this.weeklyUserControl1 = new WindowsFormsApp1.WeeklyUserControl();
-            this.objectHolder1 = new WindowsFormsApp1.ObjectHolder();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,7 +114,9 @@
             // 
             // monthlyUserControl1
             // 
-            this.monthlyUserControl1.Location = new System.Drawing.Point(280, 115);
+            this.monthlyUserControl1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.monthlyUserControl1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.MonthlyLayout;
+            this.monthlyUserControl1.Location = new System.Drawing.Point(280, 116);
             this.monthlyUserControl1.Margin = new System.Windows.Forms.Padding(0);
             this.monthlyUserControl1.Name = "monthlyUserControl1";
             this.monthlyUserControl1.Size = new System.Drawing.Size(456, 303);
@@ -138,14 +139,6 @@
             this.weeklyUserControl1.TabIndex = 8;
             this.weeklyUserControl1.Visible = false;
             // 
-            // objectHolder1
-            // 
-            this.objectHolder1.Location = new System.Drawing.Point(368, 116);
-            this.objectHolder1.Name = "objectHolder1";
-            this.objectHolder1.Size = new System.Drawing.Size(100, 33);
-            this.objectHolder1.TabIndex = 5;
-            this.objectHolder1.Text = "objectHolder1";
-            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -153,15 +146,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.WhiteBackground;
             this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.monthlyUserControl1);
-            this.Controls.Add(this.dailyUserControl1);
-            this.Controls.Add(this.weeklyUserControl1);
             this.Controls.Add(this.DoableLogo);
-            this.Controls.Add(this.objectHolder1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Daily);
+            this.Controls.Add(this.monthlyUserControl1);
+            this.Controls.Add(this.dailyUserControl1);
+            this.Controls.Add(this.weeklyUserControl1);
             this.Name = "Form1";
             this.Text = "Doable";
             this.panel1.ResumeLayout(false);
@@ -174,7 +166,6 @@
         private System.Windows.Forms.Button Daily;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private ObjectHolder objectHolder1;
         private System.Windows.Forms.Label DoableLogo;
         private WeeklyUserControl weeklyUserControl1;
         private DailyUserControl dailyUserControl1;

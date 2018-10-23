@@ -33,7 +33,7 @@
             // 
             // label1
             // 
-            this.label1.Image = global::WindowsFormsApp1.Properties.Resources.MonthlyView;
+            this.label1.Image = global::WindowsFormsApp1.Properties.Resources.MonthlyLayout;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(456, 303);

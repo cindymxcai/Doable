@@ -12,12 +12,13 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private System.Windows.Forms.Panel p;
-        private System.Windows.Forms.Label l;
-        private System.Windows.Forms.CheckBox c;
-        private TaskUserControl TaskUserControl1;
+        private System.Windows.Forms.Panel[] taskP;
+        private List<Panel> list;
+        private System.Windows.Forms.Label[] taskL;
+        private System.Windows.Forms.CheckBox[] taskC;
         List<TaskInformation> taskInformationList = new List<TaskInformation>();
-
+        List<int> selectedTasks = new List<int>();
+        private bool boxCheckedRecent = false;
         public Form1()
         {
             InitializeComponent();
@@ -60,22 +61,10 @@ namespace WindowsFormsApp1
 
         private void AddTask_Click(object sender, EventArgs e)
         {
-            p = new Panel();
-            l = new Label();
-            c = new CheckBox();
-
-            this.p.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.WhiteBackground;
-            this.p.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.p.Location = new System.Drawing.Point(3, 3);
-            this.p.Name = "taskP";
-            this.p.Size = new System.Drawing.Size(192, 35);
-            this.p.TabIndex = 13;
-
-            this.c.Location = new System.Drawing.Point(170, 15);
-            this.c.Size = new System.Drawing.Size(13, 13);
-
-            panel1.Controls.Add(c);
-            panel1.Controls.Add(p);
+            taskP = new Panel[6];
+            taskL = new Label[6];
+            taskC = new CheckBox[6];
+            list = new List<Panel>();
 
             using (var form = new AddTaskForm())
             {
@@ -88,24 +77,85 @@ namespace WindowsFormsApp1
                 }
             }
 
-            TaskUserControl t = new TaskUserControl(taskInformationList[taskInformationList.Count - 1].GetTaskTitle());
+            this.taskP[taskInformationList.Count - 1] = new Panel();
 
-            this.l.Text = taskInformationList[taskInformationList.Count - 1].GetTaskTitle();
-            this.l.Location = new System.Drawing.Point(3, 9);
-            this.l.Image = global::WindowsFormsApp1.Properties.Resources.WhiteBackground;
-            this.l.Size = new System.Drawing.Size(180, 35);
 
-            this.p.Controls.Add(l);
+            this.taskP[taskInformationList.Count - 1].BackgroundImage = global::WindowsFormsApp1.Properties.Resources.WhiteBackground;
+            this.taskP[taskInformationList.Count - 1].BorderStyle = BorderStyle.FixedSingle;
+
+            if((taskInformationList.Count - 2)  == (-1))
+                {
+                    this.taskP[taskInformationList.Count - 1].Location = new System.Drawing.Point(3, 3);
+                taskInformationList[taskInformationList.Count - 1].setXLocation(3);
+                taskInformationList[taskInformationList.Count - 1].setYLocation(3);
+            }
+            else
+            {
+                this.taskP[taskInformationList.Count - 1].Location = new System.Drawing.Point(3, taskInformationList[taskInformationList.Count - 2].getYLocation() + 38);
+                taskInformationList[taskInformationList.Count - 1].setXLocation(taskInformationList[taskInformationList.Count - 2].getYLocation() + 3);
+                taskInformationList[taskInformationList.Count - 1].setYLocation(taskInformationList[taskInformationList.Count - 2].getYLocation() + 38);
+            }
+            this.taskP[taskInformationList.Count - 1].Name = "taskP ";
+            this.taskP[taskInformationList.Count - 1].Size = new Size(192, 35);
+            this.taskP[taskInformationList.Count - 1].TabIndex = 13;
+            this.taskP[taskInformationList.Count - 1].BringToFront();
+
+            list.Add(taskP[taskInformationList.Count - 1]);
+
+            panel1.Controls.Add(taskP[taskInformationList.Count - 1]);
+
+            this.taskC[taskInformationList.Count - 1] = new CheckBox();
+            this.taskC[taskInformationList.Count - 1].Location = new System.Drawing.Point(170, 10);
+            this.taskC[taskInformationList.Count - 1].Size = new System.Drawing.Size(13, 13);
+            this.taskC[taskInformationList.Count - 1].Name = "" + (taskInformationList.Count - 1);
+            this.taskInformationList[taskInformationList.Count - 1].setNumber(taskInformationList.Count - 1);
+            Int32.TryParse(this.taskC[taskInformationList.Count - 1].Name, out int comboBoxInt);
+            this.taskC[taskInformationList.Count - 1].CheckedChanged += new System.EventHandler(this.CheckedListBox1_SelectedIndexChanged);
+
+            this.taskP[taskInformationList.Count - 1].Controls.Add(taskC[taskInformationList.Count - 1]);
+
+            this.taskL[taskInformationList.Count - 1] = new Label();
+            this.taskL[taskInformationList.Count - 1].Text = taskInformationList[taskInformationList.Count - 1].GetTaskTitle();
+            this.taskL[taskInformationList.Count - 1].Location = new System.Drawing.Point(3, 9);
+            this.taskL[taskInformationList.Count - 1].Image = global::WindowsFormsApp1.Properties.Resources.WhiteBackground;
+            this.taskL[taskInformationList.Count - 1].Size = new System.Drawing.Size(180, 35);
+            
+
+            this.taskP[taskInformationList.Count - 1].Controls.Add(taskL[taskInformationList.Count - 1]);
         }
 
-        private void Panel1_DragEnter(object sender, DragEventArgs e)
+        private void Panel1_DragEnter(object sender, DragEventArgs e, int i)
         {
             e.Effect = DragDropEffects.All;
         }
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void CheckedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            this.boxCheckedRecent = true;
 
+            /*for (int i = 0; i < taskInformationList.Count(); i++)
+            {
+                if (taskInformationList[selectedTasks[]].getSelected())
+                {
+                    taskInformationList[selectedTasks[]].setSelected(false);
+                }
+                else
+                {
+                    taskInformationList[selectedTasks[]].setSelected(true);
+                }
+            }*/
+        }
+
+        private void changeCheckedValue(int noBoxChecked)
+        {
+            if (taskInformationList[noBoxChecked].getSelected())
+            {
+                taskInformationList[noBoxChecked].setSelected(false);
+            }
+            else
+            {
+                taskInformationList[noBoxChecked].setSelected(true);
+            }
         }
     }
 }

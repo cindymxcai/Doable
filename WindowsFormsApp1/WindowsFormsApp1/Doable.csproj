@@ -190,5 +190,14 @@
   <ItemGroup>
     <None Include="Resources\Addtaskbutton1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonthlyLayout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeeklyLayout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DailyLayout.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
